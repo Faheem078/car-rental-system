@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="car.css">
+<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+<!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" alt="Ridex logo" height="100px"  width="91px">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#featured-car" class="navbar-link" data-nav-link>Explore cars</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>About us</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+          <li>
+            <a href="contact_us.html" class="navbar-link" data-nav-link>Contact us</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+        <div class="header-contact">
+          <a href="tel:88002345678" class="contact-link">+92 3250791106 </a>
+
+          <span class="contact-time">Mon - Sat: 9:00 am - 6:00 pm</span>
+        </div>
+
+        <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+          <ion-icon name="car-outline"></ion-icon>
+
+          <span id="aria-label-txt">Explore cars</span>
+        </a>
+
+        <a href="register.html" class="btn user-btn" aria-label="Profile">
+          <ion-icon name="person-outline"></ion-icon>
+        </a>
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+<form action="car rental.php" method="post">
+  <div class="container">
+    <center><h1> Car Rental system</h1></center>
+    <hr>
+    <label> Firstname </label>
+    <input type="text" name="firstname" placeholder="Firstname" size="15" required />
+    
+    <label> Middlename </label>
+    <input type="text" name="middlename" placeholder="Middlename" size="15" required />
+
+    <label> Lastname </label>
+    <input type="text" name="lastname" placeholder="Lastname" size="15" required />
+
+    <div>
+      <label> Car Name </label>
+      <select name="car" required>
+        <option value="Car">Select a Car</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Honda">Honda</option>
+        <option value="Ford">Ford</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes">Mercedes</option>
+      </select>
+    </div>
+
+    <label> Phone </label>
+    <input type="text" name="phone" placeholder="Phone No." size="10" required />
+
+    <label> Current Address </label>
+    <textarea name="address" cols="80" rows="5" placeholder="Current Address" required></textarea>
+
+    <label for="email">Email</label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw">Password</label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat">Re-type Password</label>
+    <input type="password" placeholder="Retype Password" name="psw_repeat" required>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+</form>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Ridex logo" height="130px" width="100px">
+          </a>
+
+          <p class="footer-text">
+            Search for cheap rental cars in Pakistan. With a diverse fleet of 1000 vehicles, Waydex offers its
+            consumers an
+            attractive and fun selection.
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pricing plans</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our blog</a>
+          </li>
+
+          <li>
+            <a href="contact_us.html" class="footer-link">Contacts</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ask a question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Pakistan</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Lahore</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Multan</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Bahawalpur</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Islamabad</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Karachi</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Vehari</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Faisalabad</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gujranwala</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-skype"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">
+          &copy; 2025 <a href="index.html">FaheemTech</a>. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<scrip src="script1.js"></scrip>t
+</body>
+</html>
